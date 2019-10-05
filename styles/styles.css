@@ -89,7 +89,8 @@ h2 {
 }
 
 p {
-  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
   line-height: 1.5;
 }
 .sec-black-box{
@@ -100,6 +101,10 @@ p {
 
 .sec-about a {
   text-decoration: underline;
+}
+.footer-text{
+  font color: #ffffff;
+  text-align: center;
 }
 
 /*.sec-about h2 {
@@ -288,7 +293,11 @@ hr {
 /*Footer*/
 
 footer {
-  background: #000;
+  background: #000000;
+}
+footer p{
+  color:#ffffff;
+  text-align: center;
 }
 
 .soc-media-ul {
