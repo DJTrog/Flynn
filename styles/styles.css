@@ -9,12 +9,14 @@ $red: #ad0000;
 /*=Typography=*/
 
 html {
-  font-size: 16px;
+
 }
 
 body {
-  font-family: 'Open sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  /*padding: 1rem;*/
 }
 
 .navbar a,
@@ -31,36 +33,97 @@ body {
 }
 
 .main-heading {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   text-align: center;
   letter-spacing: 9px;
   text-transform: uppercase;
+  font-size: 2em;
+}
+.main-sub {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  font-size: .75em;
+  padding-top: 2em;
+
 }
 
+/*.two-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.third-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}*/
+
 .container > h1 {
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  padding: 20em;
+}
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+.h3 {
+  /*text-align: center;*/
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
 }
 
 p {
-  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
   line-height: 1.5;
+}
+.sec-black-box{
+  height: 5em;
+  width: 100%;
+  background-color: black;
 }
 
 .sec-about a {
   text-decoration: underline;
 }
+.footer-text{
+  font color: #ffffff;
+  text-align: center;
+}
 
-.sec-services h2,
+/*.sec-about h2 {
+  text-align: center;
+  font-weight: 100;
+}*/
+
+.sec-services h2 {
+  font-weight: 200;
+  text-align: center;
+}
 .sec-services p {
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
 }
 
 .sec-testimonials p {
   font-style: italic;
+  text-align: left;
 }
 
 .sec-contact .btn {
@@ -136,8 +199,8 @@ hr {
 
 .sec-main {
   position: relative;
-  height: 560px;
-  background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center;
+  height: 500px;
+  background: url('../images/doesunrise.jpg'); no-repeat center center;
   background-size: cover;
 
   &:after {
@@ -158,9 +221,9 @@ hr {
   bottom: 0;
   left: 0;
   z-index: 2;
-  padding: 0;
+  padding: 10%;
   margin: auto;
-  height: 40px;
+  /*height: 40px;*/
   color: #fff;
 }
 
@@ -186,17 +249,18 @@ hr {
   width: 45px;
 }
 
-.sec-services .fa-paint-brush {
+.sec-services .fa-paint-comments {
   width: 64px;
 }
 
-.sec-services .fa-code {
+.sec-services .fa-keyboard {
   width: 68px
 }
 
 .sec-services h2 {
   margin: 1em 0;
 }
+
 
 /*Testimonials*/
 
@@ -229,7 +293,11 @@ hr {
 /*Footer*/
 
 footer {
-  background: #000;
+  background: #000000;
+}
+footer p{
+  color:#ffffff;
+  text-align: center;
 }
 
 .soc-media-ul {
