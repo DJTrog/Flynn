@@ -105,6 +105,7 @@ p {
 .footer-text{
   font color: #ffffff;
   text-align: center;
+  font-size: .75em;
 }
 
 /*.sec-about h2 {
