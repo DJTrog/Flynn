@@ -31,14 +31,17 @@ body {
 .navbar .fa-external-link {
   font-size: 10px;
 }
-
+.navbar-brand{
+  font-weight: 800;
+}
 .main-heading {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
   text-align: center;
   letter-spacing: 9px;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.5em;
+  color: black;
 }
 .main-sub {
   font-family: 'Raleway', sans-serif;
@@ -201,8 +204,8 @@ hr {
 
 .sec-main {
   position: relative;
-  height: 500px;
-  background: url('../images/doesunrise.jpg'); no-repeat center center;
+  height: 550px;
+  background: url('../images/common-app.jpg'); no-repeat center center;
   background-size: cover;
 
   &:after {
@@ -228,7 +231,16 @@ hr {
   /*height: 40px;*/
   color: #fff;
 }
-
+.hightlight{
+ background-color: rgba(0,0,0,0.65);
+ position: absolute;
+ height: auto;
+ width: 100%;
+ font-family: Verdana, Geneva, sans-serif;
+ color: #FFF;
+ bottom: 0;
+ z-index: 1;
+}
 /*About*/
 .sec-about {
   background-color: #f9f9f9;
