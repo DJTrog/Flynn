@@ -33,6 +33,7 @@ body {
 }
 .navbar-brand{
   font-weight: 800;
+  margin-left: 5em;
 }
 .main-heading {
   font-family: 'Lato', sans-serif;
