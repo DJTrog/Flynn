@@ -15,7 +15,7 @@ html {
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
-  font-size: 1em;
+  font-size: 1.25em;
   /*padding: 1rem;*/
 }
 
@@ -35,7 +35,7 @@ body {
   font-weight: 800;
   margin-left: 5em;
 }
-.main-heading {
+/*.main-heading {
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   text-align: center;
@@ -43,7 +43,7 @@ body {
   text-transform: uppercase;
   font-size: 2.5em;
   color: black;
-}
+}*/
 .main-sub {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
@@ -55,47 +55,30 @@ body {
   /*padding-top: 2em;*/
 
 }
-
-/*.two-heading {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-  text-align: center;
-  letter-spacing: 9px;
-  text-transform: uppercase;
-  font-size: 2em;
-}
-.third-heading {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-  text-align: center;
-  letter-spacing: 9px;
-  text-transform: uppercase;
-  font-size: 1.5em;
-}*/
-
 .container > h1 {
-  font-weight: 400;
+  font-weight: 100;
   text-align: center;
   text-transform: uppercase;
   padding: 20em;
 }
+
 h2 {
   text-align: center;
   font-weight: lighter;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 .h3 {
-  /*text-align: center;*/
-  font-weight: lighter;
+  text-align: center;
+  font-weight: 400;
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: 1.25em;
+  line-height: 1.75;
 }
 .sec-black-box{
   height: auto;
@@ -112,12 +95,6 @@ p {
   text-align: center;
   font-size: .75em;
 }
-
-/*.sec-about h2 {
-  text-align: center;
-  font-weight: 100;
-}*/
-
 .sec-services h2 {
   font-weight: 200;
   text-align: center;
@@ -187,11 +164,6 @@ hr {
 .navbar-default {
   background: #fff;
 }
-
-/*.navbar .fa-external-link {
-  vertical-align: top;
-}*/
-
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
   color: $red;
@@ -203,10 +175,10 @@ hr {
 
 /*Main*/
 
-.sec-main {
+/*.sec-main {
   position: relative;
   height: 550px;
-  background: url('../images/common-app.jpg'); no-repeat center center;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Wheeler_Hall--UC_Berkeley--Panoramic.jpg/1200px-Wheeler_Hall--UC_Berkeley--Panoramic.jpg');
   background-size: cover;
 
   &:after {
@@ -229,7 +201,7 @@ hr {
   z-index: 2;
   padding: 10%;
   margin: auto;
-  /*height: 40px;*/
+  height: 40px;
   color: #fff;
 }
 .hightlight{
@@ -241,7 +213,8 @@ hr {
  color: #FFF;
  bottom: 0;
  z-index: 1;
-}
+}*/
+
 /*About*/
 .sec-about {
   background-color: #f9f9f9;
@@ -266,18 +239,23 @@ hr {
   width: 45px;
 }
 
-.sec-services .fa-paint-comments {
+/*.sec-services .fa-paint-comments {
   width: 64px;
 }
 
 .sec-services .fa-keyboard {
   width: 68px
 }
-
+*/
 .sec-services h2 {
-  margin: 1em 0;
+  margin: 0;
 }
-
+.service-apps {
+  font-style: italic;
+  text-align: left;
+  color: #AED6F1 ;
+  font-size: 1.5em;
+}
 
 /*Testimonials*/
 
@@ -341,4 +319,100 @@ footer p{
   &:focus {
     color: $red;
   }
+}
+
+.module {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Wheeler_Hall--UC_Berkeley--Panoramic.jpg/1200px-Wheeler_Hall--UC_Berkeley--Panoramic.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+}
+.module > header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  background: inherit;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.module > header::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.module > header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25)
+}
+.module > header > h1 {
+  margin: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 2em;
+  letter-spacing: .15em;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*back to top code*/
+#button {
+  display: inline-block;
+  background-color: #6699cc;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+#button {
+  margin: 30px;
 }
