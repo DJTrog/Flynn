@@ -1,11 +1,11 @@
-/*$(function() {
+$(function() {
   $('.js-nav a, .js-connect').click(function(e) {
     e.preventDefault();
     $('body, html').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 750);
   });
-});*/
+});
 
 /*back to top code*/
 var btn = $('#button');
