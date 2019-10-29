@@ -332,7 +332,7 @@ footer p{
 
 .module {
   /*background: url(http://d13pix9kaak6wt.cloudfront.net/background/ucberkeley_1354055417_39.jpg);*/
-  background: url("../images/wheeler-full.jpg");
+  background: url("../images/wheeler-1200x550.jpg")no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -340,6 +340,7 @@ footer p{
   position: relative;
   overflow: hidden;
   margin: 0px;
+  /*padding-top: 56.25%;*/
 }
 .module > header {
   position: absolute;
