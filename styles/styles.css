@@ -332,7 +332,7 @@ footer p{
 
 .module {
   /*background: url(http://d13pix9kaak6wt.cloudfront.net/background/ucberkeley_1354055417_39.jpg);*/
-  background: url("../images/wheeler-1200x550.jpg")no-repeat center center;
+  background: url("../images/wheeler-1200x550.jpg") 80% 100%;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
